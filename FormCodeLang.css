@@ -17,7 +17,6 @@ body {
 
 .form {
   position: relative;
-  z-index: 1;
   background: #2c2c2c;
   max-width: 360px;
   margin: 0 auto 100px;
@@ -49,8 +48,6 @@ body {
   padding: 15px;
   color: #fff;
   font-size: 14px;
-  -webkit-transition: all 0.3 ease;
-  transition: all 0.3s ease;
   cursor: pointer;
 }
 
@@ -59,9 +56,4 @@ body {
 .form button:focus {
   background: #7625c2;
   transition: .3s;
-}
-
-
-.form .register-form {
-  display: none;
 }
