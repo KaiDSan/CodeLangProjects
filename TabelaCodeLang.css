@@ -1,16 +1,47 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	background-color: #121212;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+h1{
+	color: #fff;
+	text-align: center;
+}
 table {
 	border-collapse: collapse;
 	width: 100%;
 	margin-top: 20px;
 }
 
-th, td {
+th,
+td {
 	padding: 8px;
 	text-align: left;
 	border-bottom: 1px solid #ddd;
+	color: #fff;
 }
 
 th {
 	background-color: #4CAF50;
 	color: white;
+}
+
+th,
+img {
+	width: 10vh;
+}
+button{
+	background-color: #4CAF50;
+	border: none;
+	padding: 8px;
+	border-radius: 6px;
+}
+button:hover,
+button:active,
+button:focus {
+  background: #5bd45f;
+  color: #fff;
+  transition: .3s;
 }

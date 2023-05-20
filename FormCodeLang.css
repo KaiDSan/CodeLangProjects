@@ -57,7 +57,8 @@ body {
 .form button:hover,
 .form button:active,
 .form button:focus {
-  background: #7647A2;
+  background: #7625c2;
+  transition: .3s;
 }
 
 
